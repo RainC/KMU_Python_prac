@@ -31,6 +31,25 @@ for i in range(0, k):
     print("\t\t\t\t\t\t\t\t\t",i, DecreaseMode, num_center, num_plus_count, InitProcess)
     
     InitProcess = True
+
     
-    
-    
+# input num:17
+# center: 8
+#                                      i/desc/cent/plus/init
+# ********+********                                    0 False 8 1 False
+# *******+++*******                                    1 False 7 3 True
+# ******+++++******                                    2 False 6 5 True
+# *****+++++++*****                                    3 False 5 7 True
+# ****+++++++++****                                    4 False 4 9 True
+# ***+++++++++++***                                    5 False 3 11 True
+# **+++++++++++++**                                    6 False 2 13 True
+# *+++++++++++++++*                                    7 False 1 15 True
+# +++++++++++++++++                                    8 False 0 17 True
+# *+++++++++++++++*                                    9 True 1 15 True
+# **+++++++++++++**                                    10 True 2 13 True
+# ***+++++++++++***                                    11 True 3 11 True
+# ****+++++++++****                                    12 True 4 9 True
+# *****+++++++*****                                    13 True 5 7 True
+# ******+++++******                                    14 True 6 5 True
+# *******+++*******                                    15 True 7 3 True
+# ********+********                                    16 True 8 1 True
